@@ -29,8 +29,6 @@ class Square(Rectangle):
         self.width = value
         self.height = value
 
-
-'''
     def update(self, *args, **kwargs):
         """assigns attributes"""
         if (args):
@@ -46,6 +44,8 @@ class Square(Rectangle):
         for key, value in kwargs.items():
             setattr(self, key, value)
 
+
+'''
     def to_dictionary(self):
         """return dictionary representation of square"""
         my_dict = {}
