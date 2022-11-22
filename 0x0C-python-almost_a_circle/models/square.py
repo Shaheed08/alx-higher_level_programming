@@ -44,8 +44,6 @@ class Square(Rectangle):
         for key, value in kwargs.items():
             setattr(self, key, value)
 
-
-'''
     def to_dictionary(self):
         """return dictionary representation of square"""
         my_dict = {}
@@ -54,4 +52,3 @@ class Square(Rectangle):
         my_dict["x"] = self.x
         my_dict["y"] = self.y
         return my_dict
-'''
