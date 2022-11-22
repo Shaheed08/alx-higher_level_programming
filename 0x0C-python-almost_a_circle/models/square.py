@@ -18,8 +18,6 @@ class Square(Rectangle):
                                                  self.y,
                                                  self.size)
 
-
-'''
     @property
     def size(self):
         """retrieve size"""
@@ -31,6 +29,8 @@ class Square(Rectangle):
         self.width = value
         self.height = value
 
+
+'''
     def update(self, *args, **kwargs):
         """assigns attributes"""
         if (args):
